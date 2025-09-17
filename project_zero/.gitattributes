@@ -1,0 +1,6 @@
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cpp linguist-detectable=false
+windows/** linguist-detectable=false
+macos/** linguist-detectable=false
+linux/** linguist-detectable=false
