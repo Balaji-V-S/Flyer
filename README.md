@@ -1,7 +1,11 @@
-# Project Zero
+# OneLine News App
 
-Project Zero is a science-based mobile app built with Flutter to help people quit both smoking and vaping.  
-It combines evidence-based behavioral support, personalized quit plans, and simple progress tracking to make the journey to a nicotine-free life easier and more effective.  
+A minimal one-line news app that delivers the latest updates in a single glance.  
+Users can choose their favorite topics, browse news as swipeable cards, and stay updated through a home screen widget without even opening the app.  
 
-The app is currently in research and development, with ongoing studies to validate its effectiveness.  
-An alpha version will be rolling out soon for early testing and feedback.
+## Features
+- One-line news cards with clear categorization  
+- Personalized feed based on selected topics  
+- Home screen widget with rotating headlines  
+- Clean Material Design 3 UI with light/dark mode  
+- AI-powered summarization for concise headlines  
