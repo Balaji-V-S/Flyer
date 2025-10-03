@@ -1,4 +1,5 @@
 *.h linguist-detectable=false
+*.html linguist-detectable=false
 *.cc linguist-detectable=false
 *.cpp linguist-detectable=false
 windows/** linguist-detectable=false
