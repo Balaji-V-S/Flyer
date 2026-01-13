@@ -1,41 +1,85 @@
 <a href="https://balajivs.me"><img src="https://github.com/Balaji-V-S/Balaji-V-S/blob/main/Github%20Readme%20watermark.png" align="right" width="140" /></a>
 
-# Flyer – Bite-Sized Knowledge, Delivered Daily
+# Flyer Core — Self-Hostable Micro-Knowledge Engine
 
-**Flyer** is a modern micro-knowledge web app that delivers daily bite-sized insights, facts, and updates directly to your browser. Designed for users who are short on time, Flyer helps you stay informed and learn something new every day without scrolling through long articles or feeds.
+**Flyer Core** is a blazing-fast, self-hostable backend that ingests content from any source, distills it into bite-sized knowledge, and serves it through clean APIs.  
+Built with **Spring Boot** and compiled using **GraalVM Native Image**, Flyer Core runs anywhere — from a Raspberry Pi to production cloud infra.
 
-## Features
-- **One-Line Knowledge Cards**: Quickly consume insights in a single glance.
-- **Personalized Feed**: Choose your favorite topics and interests.
-- **Progressive Web App (PWA)**: Access updates directly from your device with offline support.
-- **Clean, Minimal UI**: Focus on the knowledge, not the interface.
-- **AI-Powered Summaries**: Summarizes long articles into crisp, digestible one-liners.
+It’s not an app.  
+It’s *infrastructure for knowledge*.
 
-## Target Audience
-- Busy professionals who want daily knowledge in under a minute.
-- Students and lifelong learners seeking bite-sized insights.
-- Anyone interested in staying informed without spending hours reading.
+---
 
-## Tech Stack (MVP)
-- **Frontend:** React + Vite
-- **Backend:** FastAPI (Python)
-- **Database:** MongoDB (primary), optionally SQLite for lightweight storage
-- **Content Sources:** RSS feeds, JSON APIs, public content sources, AI summarization
-- **Notifications:** Browser push notifications via service workers (PWA)
-- **Deployment:** Docker or cloud deployment for full-stack demo
+## What Flyer Core Does
 
-## Roadmap
-### Short-Term
-- MVP with personalized feed and swipeable one-line cards
-- Basic PWA with offline support and notifications
-- Topic selection & bookmarking
+- Ingests content from:
+  - RSS feeds
+  - Web URLs
+  - Files / APIs
+- Runs a pluggable processing pipeline:
+  - Normalize → Summarize → Tag → De-duplicate
+- Optionally uses LLMs to:
+  - Create one-line knowledge cards
+  - Generate summaries
+  - Auto-tag topics
+- Stores and serves:
+  - Knowledge cards
+  - Feeds
+  - Topics
+  - History & metadata
+- Exposes a clean REST API for:
+  - Web apps
+  - Mobile apps
+  - Widgets
+  - Bots
+  - Any client
 
-### Long-Term
-- AI-powered content summarization enhancements
-- Gamification: streaks and badges for daily learning
-- Customizable PWA themes and layouts
-- Multi-language support and expanded offline caching
+You bring the frontend.  
+Flyer Core powers it.
 
-## 💡 Vision
-Flyer aims to become the **go-to web app for quick, daily knowledge**, helping people learn efficiently and stay informed in the shortest possible time. Our mission is to make learning effortless, bite-sized, and part of your daily routine.
+---
+
+## Key Features
+
+- 🚀 **GraalVM Native** – Instant startup, ultra-low memory
+- 🏗️ **Self-Hostable** – Run it on your own server, NAS, or edge device
+- 🔌 **Pluggable Pipeline** – Swap or extend ingestion & processing stages
+- 🧠 **AI-Ready** – Optional LLM integration for summarization & tagging
+- 🧩 **API-First** – Clean REST APIs for any client
+- 🐳 **Single-Binary Deploy** – Tiny Docker image, production-ready
+
+---
+
+## Tech Stack
+
+- **Backend:** Spring Boot (Java 21)
+- **Runtime:** GraalVM Native Image
+- **Storage:** MongoDB / PostgreSQL / Embedded DB (configurable)
+- **AI Layer:** OpenAI / Ollama / Local LLMs (optional)
+- **Deployment:** Native binary, Docker, or bare-metal
+
+---
+
+Everything is modular, replaceable, and Graal-friendly.
+
+---
+
+## Use Cases
+
+- Personal knowledge server  
+- Daily knowledge feed for apps  
+- Internal learning system for teams  
+- Newsletter backend  
+- Edge-deployed info engine  
+
+---
+
+## Vision
+
+Flyer Core aims to be the **Frappe of knowledge infrastructure** —  
+a lightweight, open, self-hostable engine that turns the chaos of the internet into calm, consumable insight.
+
+Not another app.  
+A *foundation* for how knowledge flows.
+
 
