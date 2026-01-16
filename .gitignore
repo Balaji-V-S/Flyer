@@ -1,0 +1,60 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ---- Java / Build ----
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ---- Maven / Gradle ----
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# ---- Spring Boot ----
+*.pid
+spring.log
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# ---- GraalVM / Native Image ----
+native-image/
+*.hprof
+
+# ---- Environment ----
+.env
+.env.*
+
+# ---- Docker ----
+docker-compose.override.yml
+
+# ---- Test / Coverage ----
+coverage/
+jacoco.exec
+
+# ---- Temporary / Runtime ----
+tmp/
+temp/
+*.swp
+*.swo
+
+# ---- Node (if any tooling/UI later) ----
+node_modules/
+
+# ---- Secrets ----
+*.key
+*.env
+*.pem
+secrets/
