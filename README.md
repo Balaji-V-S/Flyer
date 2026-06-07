@@ -3,7 +3,7 @@
 # Flyer Core — Self-Hostable Micro-Knowledge Engine
 
 **Flyer Core** is a blazing-fast, self-hostable backend that ingests content from any source, distills it into bite-sized knowledge, and serves it through clean APIs.  
-Built with **Spring Boot** and compiled using **GraalVM Native Image**, Flyer Core runs on any container or VPS or your own homelab 
+Built with **Spring Boot** and compiled using **GraalVM Native Image**, Flyer Core runs on any container or VPS or your own homelab
 
 It’s not an app.  
 It’s *infrastructure for knowledge*.
@@ -66,11 +66,11 @@ Everything is modular, replaceable, and Graal-friendly.
 
 ## Use Cases
 
-- Personal knowledge server  
-- Daily knowledge feed for apps  
-- Internal learning system for teams  
-- Newsletter backend  
-- Edge-deployed info engine  
+- Personal knowledge server
+- Daily knowledge feed for apps
+- Internal learning system for teams
+- Newsletter backend
+- Edge-deployed info engine
 
 ---
 
